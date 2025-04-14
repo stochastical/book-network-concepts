@@ -1,0 +1,15 @@
+[project]
+name = "book-network-concepts"
+version = "0.1.0"
+description = "Solutions to Beej's Guide to Networking Concepts"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.ruff]
+# Allow lines to be as long as 120.
+line-length = 80
+
+[tool.ruff.format]
+# Prefer single quotes over double quotes.
+quote-style = "single"
